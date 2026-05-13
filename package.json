@@ -1,18 +1,22 @@
 {
   "name": "electron-web-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Electron desktop app that opens a specified website in a native-like window.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder --win nsis"
   },
-  "engines": {
-    "node": ">=20 <21"
-  },
+  "keywords": [
+    "electron",
+    "desktop",
+    "web-wrapper"
+  ],
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "30.5.1",
-    "electron-builder": "24.13.3"
+    "electron": "^39.0.0",
+    "electron-builder": "^26.0.12"
   },
   "build": {
     "appId": "com.example.electronwebwrapper",
